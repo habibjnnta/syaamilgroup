@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mnuc2567/public_html/kober
+    - /bin/cp -R * $DEPLOYPATH
